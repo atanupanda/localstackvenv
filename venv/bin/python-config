@@ -1,4 +1,4 @@
-#!/home/sahoo/Videos/localstack/venv/bin/python
+#!/home/sahoo/Videos/venv/bin/python
 
 import sys
 import getopt
