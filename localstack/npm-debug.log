@@ -1,0 +1,141 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData kinesalite
+20 silly mapToRegistry name kinesalite
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'kinesalite',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'kinesalite',
+23 silly mapToRegistry   name: 'kinesalite',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/kinesalite
+25 silly fetchNamedPackageData leveldown
+26 silly mapToRegistry name leveldown
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'leveldown',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'leveldown',
+29 silly mapToRegistry   name: 'leveldown',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/leveldown
+31 verbose request uri https://registry.npmjs.org/kinesalite
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 7:34:36 PM
+34 verbose request id 577115f8a3b6e0f3
+35 http request GET https://registry.npmjs.org/kinesalite
+36 verbose request uri https://registry.npmjs.org/leveldown
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 7:34:37 PM
+39 http request GET https://registry.npmjs.org/leveldown
+40 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+41 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+42 info attempt registry request try #2 at 7:34:47 PM
+43 http request GET https://registry.npmjs.org/leveldown
+44 info attempt registry request try #2 at 7:34:47 PM
+45 http request GET https://registry.npmjs.org/kinesalite
+46 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+47 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+48 info attempt registry request try #3 at 7:35:48 PM
+49 http request GET https://registry.npmjs.org/leveldown
+50 info attempt registry request try #3 at 7:35:48 PM
+51 http request GET https://registry.npmjs.org/kinesalite
+52 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=407
+52 silly fetchPackageMetaData     at ClientRequest.onConnect (D:\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+52 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+52 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+52 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+52 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+52 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+52 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+52 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+52 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+52 silly fetchPackageMetaData     at TCP.onread (net.js:547:20)
+52 silly fetchPackageMetaData  error for leveldown@3.0.1 { Error: tunneling socket could not be established, statusCode=407
+52 silly fetchPackageMetaData     at ClientRequest.onConnect (D:\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+52 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+52 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+52 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+52 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+52 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+52 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+52 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+52 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+52 silly fetchPackageMetaData     at TCP.onread (net.js:547:20) code: 'ECONNRESET' }
+53 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=407
+53 silly fetchPackageMetaData     at ClientRequest.onConnect (D:\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+53 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+53 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+53 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+53 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+53 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+53 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+53 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+53 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+53 silly fetchPackageMetaData     at TCP.onread (net.js:547:20)
+53 silly fetchPackageMetaData  error for kinesalite@1.14.0 { Error: tunneling socket could not be established, statusCode=407
+53 silly fetchPackageMetaData     at ClientRequest.onConnect (D:\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+53 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+53 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+53 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+53 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+53 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+53 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+53 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+53 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+53 silly fetchPackageMetaData     at TCP.onread (net.js:547:20) code: 'ECONNRESET' }
+54 silly rollbackFailedOptional Starting
+55 silly rollbackFailedOptional Finishing
+56 silly runTopLevelLifecycles Finishing
+57 silly install printInstalled
+58 verbose stack Error: tunneling socket could not be established, statusCode=407
+58 verbose stack     at ClientRequest.onConnect (D:\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+58 verbose stack     at ClientRequest.g (events.js:292:16)
+58 verbose stack     at emitThree (events.js:116:13)
+58 verbose stack     at ClientRequest.emit (events.js:194:7)
+58 verbose stack     at Socket.socketOnData (_http_client.js:395:11)
+58 verbose stack     at emitOne (events.js:96:13)
+58 verbose stack     at Socket.emit (events.js:188:7)
+58 verbose stack     at readableAddChunk (_stream_readable.js:176:18)
+58 verbose stack     at Socket.Readable.push (_stream_readable.js:134:10)
+58 verbose stack     at TCP.onread (net.js:547:20)
+59 verbose cwd D:\AVC Migration\Project\Localstack\localstack\localstack
+60 error Windows_NT 6.3.9600
+61 error argv "D:\\nodejs\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+62 error node v6.11.5
+63 error npm  v3.10.10
+64 error code ECONNRESET
+65 error network tunneling socket could not be established, statusCode=407
+66 error network This is most likely not a problem with npm itself
+66 error network and is related to network connectivity.
+66 error network In most cases you are behind a proxy or have bad network settings.
+66 error network
+66 error network If you are behind a proxy, please make sure that the
+66 error network 'proxy' config is set properly.  See: 'npm help config'
+67 verbose exit [ 1, true ]
